@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nema Hesaplama — Gizlilik Politikası</title>
+<style>
+  :root { --zemin:#f5f6f8; --yazi:#1b2430; --soluk:#5a6575; --vurgu:#1f3a5f; --kart:#ffffff; --cizgi:#dde2e9; }
+  @media (prefers-color-scheme: dark) {
+    :root { --zemin:#12161c; --yazi:#dde2e9; --soluk:#9ea8b5; --vurgu:#9db9e2; --kart:#1a2028; --cizgi:#2c3440; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--zemin); color:var(--yazi);
+         font:16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  h1 { font-size:1.6rem; margin:0 0 4px; color:var(--vurgu); }
+  h2 { font-size:1.15rem; margin:28px 0 8px; color:var(--vurgu); }
+  .tarih { color:var(--soluk); margin:0 0 20px; }
+  .kutu { background:var(--kart); border:1px solid var(--cizgi); border-radius:12px; padding:14px 16px; margin:16px 0; }
+  table { width:100%; border-collapse:collapse; font-size:.95rem; }
+  th, td { text-align:left; padding:8px 6px; border-bottom:1px solid var(--cizgi); vertical-align:top; }
+  th { color:var(--soluk); font-weight:600; }
+  a { color:var(--vurgu); }
+  ul { padding-left:20px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Nema Hesaplama — Gizlilik Politikası</h1>
+  <p class="tarih">Yürürlük tarihi: 15 Ekim 2026 · Uygulama: Nema Hesaplama (com.nemahesaplama.app)</p>
+
+  <div class="kutu">
+    <strong>Kısaca:</strong> Girdiğiniz maaş, aidat ve birikim bilgileri yalnızca
+    telefonunuzda saklanır; geliştiriciye veya herhangi bir sunucuya gönderilmez.
+    Uygulamada hesap, giriş, reklam ve kullanıcı takibi yoktur.
+  </div>
+
+  <h2>1. Uygulama hakkında</h2>
+  <p>Nema Hesaplama, OYAK üyelerinin aidat ve nema birikimini tahmin etmelerine
+  yardımcı olan bağımsız bir finansal simülasyon aracıdır. <strong>Ordu Yardımlaşma
+  Kurumu (OYAK) veya Milli Savunma Bakanlığı (MSB) ile hiçbir resmi bağı yoktur.</strong>
+  Hesaplamalar tahminidir; resmi bakiyeniz için OYAK'ın kendi kanallarını esas alın.</p>
+
+  <h2>2. Toplamadığımız bilgiler</h2>
+  <p>Uygulama sizden T.C. kimlik numarası, OYAK üye numarası, kurum sicili, şifre,
+  ad-soyad, telefon numarası, e-posta veya konum <strong>istemez ve toplamaz</strong>.</p>
+
+  <h2>3. Telefonunuzda kalan bilgiler</h2>
+  <p>Aşağıdakiler yalnızca cihazınızın uygulamaya özel depolama alanında tutulur:</p>
+  <ul>
+    <li>Katılış tarihi, yıllık/aylık aidat tutarları, OYAK bakiyesi (girerseniz)</li>
+    <li>Nema oranı düzeltmeleriniz ve kaydettiğiniz senaryolar</li>
+    <li>Tercihler (tema, tutar gizleme, kilit, bildirim ayarları)</li>
+  </ul>
+  <p>Bu veriler Android'in otomatik Google Drive yedeğine ve cihazdan cihaza
+  aktarıma <strong>dahil edilmez</strong>. Yedeği yalnızca siz, uygulama içindeki
+  "Yedek al" ile alıp istediğiniz yere kaydedebilirsiniz. Uygulamayı kaldırdığınızda
+  tüm veriler silinir.</p>
+
+  <h2>4. Ekran görüntüsünden okuma ve parmak izi</h2>
+  <ul>
+    <li><strong>Ekran görüntüsü okuma:</strong> Seçtiğiniz görüntülerdeki yazı,
+    telefonunuzda çalışan Google ML Kit metin tanıma ile cihaz üzerinde okunur;
+    görüntüler hiçbir sunucuya yüklenmez.</li>
+    <li><strong>Parmak izi / yüz kilidi:</strong> Doğrulamayı Android işletim sistemi
+    yapar; uygulama biyometrik veriye erişmez ve saklamaz.</li>
+  </ul>
+
+  <h2>5. İnternet bağlantısı (yalnızca indirme)</h2>
+  <p>İnternet yalnızca herkese açık verileri <em>indirmek</em> için kullanılır. Bu
+  isteklerde sizinle ilgili hiçbir bilgi gönderilmez. Ayarlar &gt; "İnternetten
+  güncelle" ile tamamen kapatabilirsiniz.</p>
+  <table>
+    <tr><th>Kaynak</th><th>İndirilen</th></tr>
+    <tr><td>Türkiye Cumhuriyet Merkez Bankası (tcmb.gov.tr)</td><td>Günlük dolar kuru</td></tr>
+    <tr><td>Truncgil Finans (finans.truncgil.com)</td><td>Döviz, altın ve BIST 100 fiyatları</td></tr>
+    <tr><td>Uygulama veri dosyası (GitHub)</td><td>Memur maaş katsayıları, açıklanan nema oranları, aylık TÜFE, asgari ücret ve emekli zamları</td></tr>
+  </table>
+  <p>Her internet isteğinde olduğu gibi bu sunucular, bağlantının teknik gereği olarak
+  IP adresinizi görebilir; bu durum ilgili kuruluşların kendi politikalarına tabidir.
+  Uygulama bu sunuculara kişisel bilgi iletmez.</p>
+
+  <h2>6. Üçüncü taraf bileşenler</h2>
+  <p>Metin tanıma için kullanılan Google ML Kit, hizmetin iyileştirilmesi amacıyla
+  Google'a anonim teşhis ve kullanım bilgileri (cihaz modeli, uygulama sürümü,
+  performans ve hata bilgileri gibi) gönderebilir. Okunan görüntü ve metinler bu
+  bilgilere dahil değildir. Ayrıntılar:
+  <a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit veri açıklaması</a>.</p>
+  <p>Uygulamada reklam, analitik veya kullanıcı takip SDK'sı bulunmaz.</p>
+
+  <h2>7. Bildirimler</h2>
+  <p>Bildirimler (aylık enflasyon, memur katsayısı, nema oranı duyuruları ve takvim
+  hatırlatmaları) telefonunuzda yerel olarak oluşturulur; bildirim sunucusu ve
+  cihaz kimliği kullanılmaz. Ayarlardan kapatabilirsiniz.</p>
+
+  <h2>8. Çocuklar</h2>
+  <p>Uygulama 18 yaş üstü kullanıcılara yöneliktir ve bilerek çocuklardan bilgi toplamaz.</p>
+
+  <h2>9. Değişiklikler ve iletişim</h2>
+  <p>Bu politika değişirse güncel hali bu sayfada yayımlanır ve yürürlük tarihi
+  güncellenir. Sorularınız için: <a href="mailto:yunusgp.55.bm@gmail.com">yunusgp.55.bm@gmail.com</a></p>
+</main>
+</body>
+</html>
